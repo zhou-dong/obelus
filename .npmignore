@@ -1,0 +1,7 @@
+# Defensive: publish only built artifacts + metadata
+*
+!dist/**
+!README.md
+!LICENSE
+!package.json
+

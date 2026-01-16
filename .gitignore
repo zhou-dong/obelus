@@ -7,14 +7,6 @@ build/
 out/
 *.tsbuildinfo
 
-# TypeScript outputs (in case compiler outputs next to sources)
-*.js
-*.cjs
-*.mjs
-*.js.map
-*.d.ts
-*.d.ts.map
-
 # Logs
 logs/
 *.log

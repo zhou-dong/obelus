@@ -1,6 +1,9 @@
-export function main() {
-  console.log("obelus: TypeScript starter is running");
+export interface HelloOptions {
+  name?: string;
 }
 
-main();
+export function hello(options: HelloOptions = {}): string {
+  const name = options.name ?? "world";
+  return `Hello, ${name}!`;
+}
 
