@@ -1,4 +1,7 @@
-import { AnimateCallbacks } from "./animateCallbacks";
+export type AnimateCallbacks = {
+    onStart?: () => void;
+    onComplete?: () => void;
+};
 
 export type AnimateEvent = {
     type: 'animate';

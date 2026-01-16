@@ -1,5 +1,5 @@
-import { AnimateTimelineEvent, CallTimelineEvent } from "../types/timelineEvents";
-import { AnimateCallbacks } from "../types/animateCallbacks";
+import { AnimateTimelineEvent, CallTimelineEvent } from "../types/events/timelineEvents";
+import { AnimateCallbacks } from "../types/events/animateEvent";
 
 export function at(time: number) {
     return {

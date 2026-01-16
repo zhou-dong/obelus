@@ -1,5 +1,5 @@
-import { WaitStepEvent, StepEvent, SequenceStepsEvent, ParallelStepsEvent, AnimateStepEvent, CallStepEvent } from "../types/stepEvents";
-import { AnimateCallbacks } from "../types/animateCallbacks";
+import { WaitStepEvent, StepEvent, SequenceStepsEvent, ParallelStepsEvent, AnimateStepEvent, CallStepEvent } from "../types/events/stepEvents";
+import { AnimateCallbacks } from "../types/events/animateEvent";
 
 export function animate(
     targetId: string,
